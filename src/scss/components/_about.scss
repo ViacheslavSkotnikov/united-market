@@ -43,9 +43,9 @@
   letter-spacing: 0.03em;
 
   @include mobile {
+    width: 100%;
     font-size: 20px;
     line-height: 28px;
-    width: 100%;
   }
 }
 

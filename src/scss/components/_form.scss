@@ -5,10 +5,10 @@
     margin-bottom: 5px;
   }
   &__container {
+    padding: 25px 15px;
     position: relative;
     background: #3657C8;
     border-radius: 20px;
-    padding: 25px 15px;
   }
 }
 
@@ -90,6 +90,7 @@
 
 .btn-form {
   padding: 17px 60px;
+  width: 260px;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -97,7 +98,6 @@
   color: #FFFFFF;
   background: #6ACDF8;
   border-radius: 66px;
-  width: 260px;
 }
 
 .form-textarea {
@@ -108,10 +108,10 @@
 }
 
 .popup {
-  visibility: hidden;
-  position: absolute;
   top: 15%;
   left: 15%;
+  visibility: hidden;
+  position: absolute;
 
   @include mobile {
     left: 5%;

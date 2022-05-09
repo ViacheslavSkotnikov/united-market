@@ -30,9 +30,9 @@
   text-align: center;
 
   @include mobile {
+    margin-bottom: 85px;
     font-size: 20px;
     line-height: 32px;
-    margin-bottom: 85px;
   }
 }
 
@@ -88,14 +88,12 @@
   }
 
   &--with {
-
     @include mobile {
       left: 30%;
     }
   }
 
   &--crm {
-
     @include mobile {
       left: 30%;
     }
