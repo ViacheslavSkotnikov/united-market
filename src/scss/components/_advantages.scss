@@ -1,0 +1,107 @@
+.advantages {
+  margin-bottom: 100px;
+
+  @include mobile {
+    margin-bottom: 68px;
+  }
+
+   &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 140px;
+
+    @include mobile {
+      display: block;
+    }
+}
+}
+
+.advantages-title {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 117px;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 58px;
+  font-weight: 700;
+  text-align: center;
+
+  @include mobile {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 85px;
+  }
+}
+
+.advantages_item {
+  position: relative;
+  padding-top: 88px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 26px rgba(84, 88, 102, 0.25);
+  border-radius: 15px;
+
+  @include mobile {
+    margin-bottom: 94px;
+  }
+}
+
+.card-title {
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.card-descr {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.card-icon {
+  position: absolute;
+  top: -35%;
+  left: 25%;
+
+  &--aco {
+    top: -45%;
+  }
+
+  &--load {
+    @include mobile {
+      left: 30%;
+    }
+  }
+
+  &--with {
+
+    @include mobile {
+      left: 30%;
+    }
+  }
+
+  &--crm {
+
+    @include mobile {
+      left: 30%;
+    }
+  }
+
+  &--stat {
+    top: -45%;
+  }
+}
