@@ -75,28 +75,11 @@
 .card-icon {
   position: absolute;
   top: -35%;
-  left: 25%;
+  left: 50%;
+  transform: translateX(-50%);
 
   &--aco {
     top: -45%;
-  }
-
-  &--load {
-    @include mobile {
-      left: 30%;
-    }
-  }
-
-  &--with {
-    @include mobile {
-      left: 30%;
-    }
-  }
-
-  &--crm {
-    @include mobile {
-      left: 30%;
-    }
   }
 
   &--stat {

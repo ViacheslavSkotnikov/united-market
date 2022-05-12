@@ -53,10 +53,10 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 550px;
+    width: 40%;
 
     @include mobile {
-      width: 345px;
+      width: 100%;
     }
   }
 
@@ -98,6 +98,12 @@
   color: #FFFFFF;
   background: #6ACDF8;
   border-radius: 66px;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: #6ACDF8;
+    background-color: #FFFFFF;
+  }
 }
 
 .form-textarea {
